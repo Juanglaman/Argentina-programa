@@ -1,9 +1,8 @@
-div {
+.row {
   background-color: #109d1a70;
 }
 
 app-redes-soci{
   float: right;
-  margin-top: 25px;
-  margin-right: 15px;
+  padding-top: 25px;
 }
