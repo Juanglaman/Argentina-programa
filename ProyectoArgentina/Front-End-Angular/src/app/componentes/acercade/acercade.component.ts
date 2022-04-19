@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ControladorPersona } from 'src/app/controlador-persona';
 
 @Component({
   selector: 'app-acercade',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acercade.component.css']
 })
 export class AcercadeComponent implements OnInit {
+  ControladorPersona = new ControladorPersona();
 
   constructor() { }
 
